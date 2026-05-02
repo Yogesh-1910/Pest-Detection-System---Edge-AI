@@ -2,6 +2,8 @@ import streamlit as st
 import torch
 import cv2
 import numpy as np
+import os
+os.environ["KMP_DUPLICATE_LIB_OK"] = "TRUE"
 
 # ===== PAGE CONFIG =====
 st.set_page_config(page_title="Pest Detection", layout="wide")
