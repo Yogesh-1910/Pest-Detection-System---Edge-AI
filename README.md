@@ -24,10 +24,6 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📸 Demo
-
-Upload an image of crops or pests to detect infestation areas.
-
 ## ⚠️ Note
 
 This system uses a pretrained model for demonstration and can be fine-tuned for real pest datasets.
